@@ -1,0 +1,11 @@
+Project setup and Installation.
+
+1- install npm
+2- npx create-react-app referral-web
+3- npm start
+4- npm install react-bootstrap bootstrap
+5- npm install autoprefixer@10.4.5 --save-exact
+6- npm install bootstrap@5.2.0-beta1
+7- npm install react-router-dom@6
+
+
