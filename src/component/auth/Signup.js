@@ -43,12 +43,25 @@ const Signup = () => {
          
         
           <div className='form-group mb-3 text-center'>
-            <button type="submit " class="button4">Sign Up</button>
+            <button type="button" class="button4" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign Up</button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content rounded-0">
+                    <div class="modal-header border-0 my-0 py-3 mt-0">
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body py-0 my-0 pb-5">
+                      Sign Up Successful
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
             </div>
           
 
             <div className='form-group mb-3 text-center'>
-                <p>Already have an account <Link to="/" class="link"><b>Login</b></Link></p>
+                <p>Already have an account <Link to="/login" class="link"><b>Login</b></Link></p>
             </div>
 
         </form>
