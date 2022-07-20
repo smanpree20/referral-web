@@ -16,7 +16,7 @@ const Header = (props) => {
                         <a href="#" className="nav-link " data-bs-toggle="dropdown"><i className="fa-regular fa-bell fa-lg" style={{color:"black"}}></i></a>
                         <div className="dropdown-menu dropdown-menu-end text-center">
                             <a href="#" className="dropdown-item">1st Notification</a>
-                            <div className="dropdown-divider"></div>href="#"
+                            <div className="dropdown-divider"></div>
                             <a href="#" className="dropdown-item">2nd Notificationt</a>
                         </div>
                     </li>

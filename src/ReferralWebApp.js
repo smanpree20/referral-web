@@ -1,16 +1,16 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css'
+// import 'bootstrap/dist/css/bootstrap.min.css'
 import Signup from './component/auth/Signup';
 import Login from './component/auth/Login';
 import Dashboard from './component/user/Dashboard';
 import PageNotFound from './component/PageNotFound'
 import ChangePassword from './component/user/ChangePassword'
-import OpAdminDashboard from './component/admin/op-admin/OpAdminDashboard';
 import { BrowserRouter,Route, Routes } from 'react-router-dom';
 import ProfileSetup from './component/user/ProfileSetup';
 import AddNewReferral from './component/user/AddNewReferral';
+import OpAdminDashboard from './component/admin/op-admin/OpAdminDashboard';
 
-const App = () => {
+const ReferralWebApp = () => {
   return (
 
      <BrowserRouter>
@@ -29,4 +29,4 @@ const App = () => {
 
   )
 }
-export default App
+export default ReferralWebApp
