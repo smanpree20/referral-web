@@ -1,6 +1,6 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Header from '../master/Header/Header.js'
+import Header from '../master/Header.js'
 import { Link } from "react-router-dom";
 const AddNewReferral = () => {
     return (
