@@ -7,5 +7,7 @@ Project setup and Installation.
 5- npm install autoprefixer@10.4.5 --save-exact
 6- npm install bootstrap@5.2.0-beta1
 7- npm install react-router-dom@6
-
+8-npm install formik
+9-npm install email-validator
+10-npm install yup
 

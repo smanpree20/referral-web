@@ -1,7 +1,7 @@
 import React from 'react';
 // import 'bootstrap/dist/css/bootstrap.min.css'
 import Signup from './component/auth/Signup';
-import Login from './component/auth/Login';
+import LoginCopy from './component/auth/LoginCopy';
 import Dashboard from './component/user/Dashboard';
 import PageNotFound from './component/PageNotFound'
 import ChangePassword from './component/user/ChangePassword'
@@ -16,7 +16,7 @@ const ReferralWebApp = () => {
      <BrowserRouter>
        <Routes>
         
-         <Route exact path="/login" element={<Login />}></Route>  
+         <Route exact path="/login" element={<LoginCopy />}></Route>  
          <Route exact path="*" element={<PageNotFound />}></Route> 
          <Route exact path="/" element={<Signup />}></Route>
          <Route exact path="/user-dash" element={<Dashboard />}></Route>
